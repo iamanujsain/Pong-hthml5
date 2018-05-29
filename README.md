@@ -2,4 +2,4 @@
 
 _Simple Pong game, made using HTML5, CSS and JavaScript._
 
-## To play the game click [here] (https://iamanujsain.github.io/Pong-html5/)
+To play the game click [here] (https://iamanujsain.github.io/Pong-html5/).
