@@ -12,11 +12,6 @@
     border: 13px solid black;
 }
 
-#myButton {
-    padding: 10px;
-    margin: 0 50%;
-}
-
 #score {
     color: #3b5998;
 }
@@ -60,4 +55,10 @@
     margin: 7% auto;
     border: 3px solid #3b5998;
     border-radius: 50%;
+}
+#playAgain:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-weight: bold;
 }

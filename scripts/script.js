@@ -25,6 +25,17 @@ function keyUpHandler(e) {
         downPressed = false;
     }
 }
+function mouseMovehandler(e) {
+    var relativeY = e.clientY;
+    var humanPaddleY = humanPaddle.y + (humanPaddle.height/2);
+    if (gameActive) {
+        if (relativeY >= humanPaddle.height/2 || relativeY <= canvas.height - humanPaddle.height/2) {
+            humanPaddle.y = relativeY - humanPaddle.height-19;
+        }
+    }
+}
+
+document.addEventListener("mousemove", mouseMovehandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("keydown", keyDownHandler, false);
 
